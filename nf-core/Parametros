@@ -1,0 +1,13 @@
+nf-core/viralrecom
+Parametros:
+
+
+nextflow run nf-core/viralrecon \
+    --input samplesheet_corrected.csv \
+    --genome MN908947.3 \
+    --platform illumina \
+    --protocol metagenomic \
+    --max_cpus 12 \
+    --max_memory 60.GB \
+    --outdir results_metagenomic \
+    -profile docker
