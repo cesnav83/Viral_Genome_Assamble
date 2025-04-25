@@ -1,6 +1,6 @@
 nf-core/viralrecom
 Parametros:
-
+#Parametros para el ensamble metagnomico SARS-COV-2 sin primers especificos(ARTIC)
 
 nextflow run nf-core/viralrecon \
     --input samplesheet_corrected.csv \
